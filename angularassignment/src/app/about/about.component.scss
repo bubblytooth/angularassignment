@@ -1,0 +1,48 @@
+.about{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  padding:40px;
+  margin:0 auto;
+  width:70%;
+  text-align:center;
+}
+.about-text{
+  line-height:30x;
+
+}
+
+.about-text h1{
+  font-size:30pt;
+  font-family:'lato', sans-serif;
+  margin:20px 0;
+  width:30%;
+}
+
+.about-text p{
+  font-size:18pt;
+  font-family:'roboto', sans-serif;
+  width:80%;
+  margin-top:20px;
+  text-align:left;
+}
+.about-images img{
+  height:500px;
+  width:80%;
+}
+
+#aboutBtn{
+  padding:16px 16px;
+  border:2px solid #ff0080;/*hotpink*/
+  line-height:100px;
+  font-size:15pt;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:#ff0080;/*hotpink*/
+  transition:background 8s ease;
+  margin-right:350px;
+
+}
+#aboutBtn:hover{
+  background-color:#ff0080;/*hotpink*/
+  color:#ffffff;/*white*/
+}

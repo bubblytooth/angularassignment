@@ -1,0 +1,28 @@
+footer{
+  background-color:#3b3b3b;
+  padding:20px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  align-items:baseline;
+}
+.footer-text h3{
+  text-transform:uppercase;
+  font-size:15px;
+  color:#ffffff;
+  margin-bottom:10px;
+}
+
+.footer-icons{
+  font-size:30px;
+}
+
+.footer-icons .fab{
+  margin-right:10px;
+  transition:transform 2s;
+  color:#ffffff;
+}
+
+.footer-icons .fab:hover{
+  color:#ff0080;
+}
